@@ -8,6 +8,7 @@ const routes: Routes = [
     children: [
       { path: '', loadChildren: () => import('./pages/home/home.module').then((m) => m.HomeModule), },
       { path: 'module3', loadChildren: () => import('./pages/module3/module3.module').then((m) => m.Module3Module), },
+      { path: 'module4', loadChildren: () => import('./pages/module4/module4.module').then((m) => m.Module4Module), },
       //{ path: 'access-control', loadChildren: () => import('./pages/access-control/access-control.module').then((m) => m.AccessControlModule), },
     ]
   },
