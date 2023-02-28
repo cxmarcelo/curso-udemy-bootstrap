@@ -71,3 +71,21 @@ i {
 #navbar a:hover {
     color: #C1B696;
 }
+
+/* MAIN IMAGE */
+
+.main-image {
+    height: 400px;
+    background-image: url("/assets/art-imgs/g_1.jpg");
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+.main-image-info {
+    background-color: #fff;
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
