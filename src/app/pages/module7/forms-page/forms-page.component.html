@@ -69,3 +69,35 @@
         </div>
     </form>
 </div>
+
+<!-- Read only -->
+<div class="col-4 m-4">
+    <h2>Testes somente leitura</h2>
+    <div class="mb-4">
+        <label for="email" class="form-label">E-mail:</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Insira seu e-mail"
+            value="matheus@email.com" readonly>
+    </div>
+    <div class="mb-4">
+        <label for="email" class="form-label">E-mail:</label>
+        <input type="email" class="form-control-plaintext" id="email" name="email" placeholder="Insira seu e-mail"
+            value="matheus@email.com" readonly>
+    </div>
+</div>
+
+<!-- Input de arquivos -->
+<div class="col-4 m-4">
+    <h2>Testes input de arquivos</h2>
+    <div class="mb-4">
+        <label for="foto" class="form-label">Apenas um arquivo</label>
+        <input class="form-control" type="file" id="foto">
+    </div>
+    <div class="mb-4">
+        <label for="fotos" class="form-label">Múltiplos arquivos</label>
+        <input class="form-control" type="file" id="fotos" multiple>
+    </div>
+    <div class="mb-4">
+        <label for="fotos" class="form-label">Input desabilitado</label>
+        <input class="form-control" type="file" id="fotos" disabled>
+    </div>
+</div>
