@@ -283,3 +283,75 @@
     <!-- desabilitado -->
     <p>Clique para fechar <button type="button" class="btn-close" aria-label="Close" disabled></button></p>
 </div>
+
+
+<!-- Collapse -->
+<div class="container mb-4">
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+        aria-expanded="false" aria-controls="collapseExample">
+        Clique para exibir/esconder
+    </button>
+    <div class="collapse" id="collapseExample">
+        <div class="col-12 mt-4">
+            Este é o texto que pode ser exibido ou não, dependendo do clique no botão.
+        </div>
+    </div>
+</div>
+
+<!-- Dropdown -->
+<div class="container mb-4">
+    <div class="dropdown mb-4">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Clique aqui
+        </a>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Link 1</a></li>
+            <li><a class="dropdown-item" href="#">Link 2</a></li>
+            <li><a class="dropdown-item" href="#">Link 3</a></li>
+        </ul>
+    </div>
+
+    <!-- A direita -->
+    <div class="btn-group dropend mb-4">
+        <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Clique aqui
+        </a>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Link 1</a></li>
+            <li><a class="dropdown-item" href="#">Link 2</a></li>
+            <li><a class="dropdown-item" href="#">Link 3</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- Modal -->
+<!-- Button trigger modal -->
+<div class="container mb-4">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Abrir modal
+    </button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Este é o título</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Aqui você pode por qualquer coisa!</p>
+                <p>Tá bom?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>
