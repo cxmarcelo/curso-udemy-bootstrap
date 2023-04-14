@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { Module9RoutingModule } from './module9-routing.module';
 import { ComponentsPageComponent } from './components-page/components-page.component';
+import { Components2PageComponent } from './components2-page/components2-page.component';
 
 
 @NgModule({
   declarations: [
-    ComponentsPageComponent
+    ComponentsPageComponent,
+    Components2PageComponent
   ],
   imports: [
     CommonModule,
