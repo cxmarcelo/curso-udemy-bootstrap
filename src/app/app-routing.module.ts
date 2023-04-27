@@ -16,6 +16,7 @@ const routes: Routes = [
   },
   { path: 'module5', loadChildren: () => import('./pages/module5/module5.module').then((m) => m.Module5Module), },
   { path: 'module8', loadChildren: () => import('./pages/module8/module8.module').then((m) => m.Module8Module), },
+  { path: 'module10', loadChildren: () => import('./pages/module10/module10.module').then((m) => m.Module10Module), },
   { path: '**', redirectTo: '/' },
 ];
 @NgModule({
