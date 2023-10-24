@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ExactTimeComponent } from './exact-time/exact-time.component';
 
 const routes: Routes = [
-  { path: 'exactTime', component: ExactTimeComponent },
+  { path: 'exact-time', component: ExactTimeComponent },
 ];
 
 @NgModule({
