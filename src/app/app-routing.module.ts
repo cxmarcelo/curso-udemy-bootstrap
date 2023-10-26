@@ -13,6 +13,7 @@ const routes: Routes = [
       { path: 'module7', loadChildren: () => import('./pages/module7/module7.module').then((m) => m.Module7Module), },
       { path: 'module9', loadChildren: () => import('./pages/module9/module9.module').then((m) => m.Module9Module), },
       { path: 'module11', loadChildren: () => import('./pages/module11/module11.module').then((m) => m.Module11Module), },
+      { path: 'module12', loadChildren: () => import('./pages/module12/module12.module').then((m) => m.Module12Module), },
     ]
   },
   { path: 'module5', loadChildren: () => import('./pages/module5/module5.module').then((m) => m.Module5Module), },
