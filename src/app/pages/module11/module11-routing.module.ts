@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ExactTimeComponent } from './exact-time/exact-time.component';
+import { HelpersPageComponent } from './helpers-page/helpers-page.component';
 
 const routes: Routes = [
-  { path: 'exact-time', component: ExactTimeComponent },
+  { path: 'helpers', component: HelpersPageComponent },
 ];
-
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class Module10RoutingModule { }
+export class Module11RoutingModule { }
